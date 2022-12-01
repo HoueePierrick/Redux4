@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-// To be checked
-// Function to add a recipe
+// Function to add a favorite recipe
 import { addRecipe } from "../favoriteRecipes/favoriteRecipesSlice.js";
 // Function to call API (loadData) and select filtered recipes to display
 import { loadData, selectFilteredAllRecipes } from "./allRecipesSlice.js";

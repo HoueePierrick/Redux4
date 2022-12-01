@@ -27,6 +27,7 @@ const allRecipesReducer = (allRecipes = initialState, action) => {
     // To remove a recipe from favorites
     case "favoriteRecipes/removeRecipe":
       return [...allRecipes, action.payload];
+    // By default, return all recipes
     default:
       return allRecipes;
   }
